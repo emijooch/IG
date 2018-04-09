@@ -1,0 +1,47 @@
+/.practica1
+Emilio J.Ochando Pantigas
+
+
+	INSTRUCCIONES DE FUNCIONAMIENTO
+
+	1-En la direccion de los archivos, en terminal escribimos:
+		make clean (para limpiar los archivos.o)
+		make (para compilar y enlazar el programa)
+		./practica1 (ejecutara nuestro programa)
+
+	2-Cuando se ejecute el programa aparecera una ventana vacia
+	con los ejes de coordenadas dibujados en la cual tenemos 
+	varias opciones para representar las figuras, las cuales 
+	corresponden a teclas pulsadas:
+	
+		tecla 1 :
+			activara la funcion tetraedro la cual nos dibuja
+			exactamente 12 puntos en pantalla, centrada en 
+			el eje de coordenas
+	
+		tecla 2 : 
+			activara la funcion cubo la cual nos dibuja
+			exactamente 8 puntos en pantalla, centrados en 
+			el eje de coordenadas
+	
+		tecla P:
+			activa la funcion de dibujado de la figura
+			en modo puntos, lo cual nos mostrará los vertices
+	
+		tecla L:
+			activa la funcion de dibujado de la figura
+			en modo alambre.
+	
+		tecla F:
+			activa la funcion de dibujado de la figura
+			en modo solido, muestra la figura completa.
+	
+		tecla C:
+			activa la funcion ajedrez, el cual dibuja 
+			los triangulos de las caras de distinto color
+			pudiendo distinguir la cantidad de triangulos
+			que utilizamos para realizar la figura
+	
+		tecla Q: 
+			salida del programa.
+			

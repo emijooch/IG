@@ -1,0 +1,100 @@
+/.practica4
+Emilio J.Ochando Pantigas
+
+
+	INSTRUCCIONES DE FUNCIONAMIENTO
+
+	1-En la carpeta de los archivos, en terminal escribimos:
+		make clean (para limpiar los archivos.o)
+		make (para compilar y enlazar el programa)
+		./practica2 (ejecutara nuestro programa)
+
+		Podemos incluir un argumento al programa en formato
+		ply para poder realizar las funciones de revolucion 
+		y carga.
+
+	2-Cuando se ejecute el programa aparecera una ventana vacia
+	con los ejes de coordenadas dibujados en la cual tenemos 
+	varias opciones para representar las figuras, las cuales 
+	corresponden a teclas pulsadas:
+	
+		tecla 1 :
+			activara la funcion tetraedro la cual nos dibuja
+			exactamente 12 puntos en pantalla, centrada en 
+			el eje de coordenas
+	
+		tecla 2 : 
+			activara la funcion cubo la cual nos dibuja
+			exactamente 8 puntos en pantalla, centrados en 
+			el eje de coordenadas
+		
+		tecla 3 :
+			activara la funcion de carga por ply.
+			para activar lo cual dibujara en modos punto,
+			linea, agedrez y all.
+			Para activar en la linea de comando, pasamos 
+			como argumento el archivo ply.
+		
+		tecla 4 :
+			activa la funcion de revolucion por ply.
+			Para activar en la linea de comando, pasamos 
+			como argumento el archivo ply.
+
+		tecla 5 :
+			activa la funcion jerarquico del camion
+			de bomberos
+
+				tecla : */+ aumenta o disminuye grado
+						escaleras.
+				tecla : =/? aumenta o disminuye grado
+						desplazamiento del conjunto
+						camion.
+				tecla : _/- aumenta o disminuye grado
+						del angulo de torreta escaleras:
+				tecla : :/. aumenta o disminuye grado 
+						giro torreta de escaleras.
+				tecla : ;/, aumenta o disminuye grado
+						giro ruedas.
+
+		
+		Tecla T :
+			activa o desactiva las tapas de la funcion
+			revolucion en el objeto.
+		
+		tecla M :
+			aumenta el numero de revoluciones.
+		
+		tecla N :
+			Disminuye el numero de revoluciones.
+
+		tecla > :
+			Aumenta la escala de proyeccion del objeto.
+
+		tecla < :
+			Disminuye la escala de proyeccion del objeto.
+		
+		tecla P:
+			activa la funcion de dibujado de la figura
+			en modo puntos, lo cual nos mostrará los vertices
+		
+		tecla A :
+			activa la funcion de dibujado de la figura 
+			en todos los modos a la vez.
+		
+		tecla L:
+			activa la funcion de dibujado de la figura
+			en modo alambre.
+	
+		tecla F:
+			activa la funcion de dibujado de la figura
+			en modo solido, muestra la figura completa.
+	
+		tecla C:
+			activa la funcion ajedrez, el cual dibuja 
+			los triangulos de las caras de distinto color
+			pudiendo distinguir la cantidad de triangulos
+			que utilizamos para realizar la figura
+	
+		tecla Q: 
+			salida del programa.
+			
